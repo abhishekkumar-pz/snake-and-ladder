@@ -1,0 +1,17 @@
+game:
+  player:
+    count: 2
+    selection:
+      strategy: round-robin
+  board:
+    size: 10
+    snakes:
+      count: 8
+    ladder:
+      count: 8
+  die:
+    count: 2
+    strategy: summation
+    value:
+      min: 1
+      max: 6
