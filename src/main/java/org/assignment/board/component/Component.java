@@ -1,7 +1,5 @@
 package org.assignment.board.component;
 
-import org.assignment.player.PlayerState;
-
 public abstract class Component {
 
     public abstract int getNextIndex(int currentIndex);

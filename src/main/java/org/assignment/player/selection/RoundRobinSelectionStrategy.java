@@ -8,7 +8,7 @@ import java.util.Queue;
 
 public class RoundRobinSelectionStrategy implements PlayerSelectionStrategy{
 
-    private Queue<Player> playerQueue;
+    private final Queue<Player> playerQueue;
     public RoundRobinSelectionStrategy(Map<Player, Integer> players){
         playerQueue = new LinkedList<>();
         for(Map.Entry<Player, Integer> playerEntry: players.entrySet()){

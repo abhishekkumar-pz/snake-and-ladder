@@ -229,7 +229,7 @@ public class GenericBoard extends Board {
                             continue;
                         }
                     }else{
-                        System.out.println("Got " + component.getName() + ", adding penalty of " + component.getTurnPenalty() +" . You will not be able to take turn util penalty");
+                        System.out.println(SPACE + "Got " + component.getName() + ", adding penalty of " + component.getTurnPenalty() +" . You will not be able to take turn util penalty");
                         currentPlayerState.setPenalty(currentPlayerState.getPenalty() + component.getTurnPenalty());
                         return new TurnResult(TurnResultType.SKIP, currentPlayerLocation, currentPlayerLocation, component.action());
                     }

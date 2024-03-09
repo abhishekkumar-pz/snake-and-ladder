@@ -1,7 +1,6 @@
 package org.assignment.board.component.impl;
 
 import org.assignment.board.component.RelocationComponent;
-import org.assignment.player.PlayerState;
 
 public class Ladder extends RelocationComponent {
     public static final String NAME = "LADDER";

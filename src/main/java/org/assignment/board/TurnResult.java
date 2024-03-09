@@ -1,7 +1,5 @@
 package org.assignment.board;
 
-import org.assignment.board.component.ComponentType;
-
 public class TurnResult {
     private TurnResultType result;
     private int from;
